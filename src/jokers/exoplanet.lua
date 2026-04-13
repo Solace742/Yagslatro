@@ -9,8 +9,8 @@ SMODS.Joker {
         extra = {
             mult = 0,
             chips = 0,
-            mult_mod = 3,
-            chip_mod = 12
+            mult_mod = 2,
+            chip_mod = 10
         }
     },
     rarity = 2,
@@ -30,7 +30,7 @@ SMODS.Joker {
             local reset = true
             local play_highest_hand = (G.GAME.hands[context.scoring_name].level or 0)
             for handname, values in pairs(G.GAME.hands) do
-                if handname ~= context.scoring_name and values.level < play_highest_hand and SMODS.is_poker_hand_visible(handname) then
+                if handname ~= context.scoring_name and values.level <= play_highest_hand and SMODS.is_poker_hand_visible(handname) then
                     reset = false
                     break
                 end
