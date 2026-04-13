@@ -1,0 +1,18 @@
+SMODS.Joker {
+    key = 'oops1',
+    atlas = 'placeholders',
+    pos = {
+        x = 1,
+        y = 0
+    },
+    blueprint_compat = false,
+    rarity = 2,
+    cost = 4,
+    calculate = function(self, card, context)
+        if context.mod_probability and not context.blueprint then
+            return {
+                denominator = context.denominator * 2
+            }
+        end
+    end,
+}

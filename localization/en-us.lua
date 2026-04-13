@@ -5,8 +5,8 @@ return {
                 name = 'EeEgg?',
                 text = {
                     'Gives {C:money}$#1#{} for each',
-                    'scoring Ace',
-                    'Money scales by {C:ATTENTION}#2#',
+                    'scoring {C:attention}Ace{}',
+                    'Money scales by {C:attention}#2#',
                     'every trigger',
                     '{C:inactive}(resets at end of round)'
                 }
@@ -20,9 +20,16 @@ return {
                     'highest level {C:attention}poker hand',
                     '{C:inactive}(Currently {C:chips}+#2#{C:inactive} Chips)',
                     '{C:inactive}(and {C:mult}+#1#{C:inactive} Mult)'
-
                 }
-            }
+            },
+            j_yags_oops1 = {
+                name = "Oops! All 1s",
+                text = {
+                    "Halves all {C:attention}listed",
+                    "{C:green,E:1,S:1.1}probabilities",
+                    "{C:inactive}(ex: {C:green}1 in 3{C:inactive} -> {C:green}1 in 6{C:inactive})",
+                },
+            },
         }
     }
 }
