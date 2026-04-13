@@ -1,0 +1,9 @@
+{
+    "id": "Yagslatro",
+    "name": "Yagslatro",
+    "author": ["Solace742"],
+    "description": "A mod that adds 6 new jokers",
+    "prefix": "yags",
+    "main_file": "main.lua",
+    "version": "0.0.1"
+}
