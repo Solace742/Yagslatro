@@ -7,9 +7,7 @@ SMODS.Joker {
     },
     config = {
         extra = {
-            dollars = 1,
-            reset = 1,
-            scalar = 1,
+            dollars = 1, reset = 1, scalar = 1,
         }
     },
     rarity = 2,

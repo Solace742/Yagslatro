@@ -30,6 +30,14 @@ return {
                     "{X:mult,C:white}X#2#{} Mult when each",
                     "{C:attention}Jack{} is scored",
                     "{C:inactive}(Currently {X:mult,C:white}X#1#{C:inactive} Mult)",
+                    "{C:green}#4# in #5#{} chance this",
+                    "card {C:attention}moulds{} at end of round",
+                },
+            },
+            j_yags_mould = {
+                name = "Mouldy Cheese",
+                text = {
+                    "{X:mult,C:white} X#1# {} Mult"
                 },
             },
             j_yags_oops1 = {
