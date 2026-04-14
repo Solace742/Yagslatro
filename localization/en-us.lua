@@ -8,7 +8,8 @@ return {
                     'scoring {C:attention}Ace{}',
                     'Money scales by {C:attention}#2#',
                     'every trigger',
-                    '{C:inactive}(resets at end of round)'
+                    '{C:inactive}(Max of {C:money}$5{C:inactive})',
+                    '{C:inactive}(Resets at end of round)'
                 }
             },
             j_yags_exoplanet = {
@@ -18,9 +19,18 @@ return {
                     'per {C:attention}consecutive{} hand played',
                     'if played hand is',
                     'highest level {C:attention}poker hand',
-                    '{C:inactive}(Currently {C:chips}+#2#{C:inactive} Chips)',
-                    '{C:inactive}(and {C:mult}+#1#{C:inactive} Mult)'
+                    '{C:inactive}(Currently {C:chips}+#2#{C:inactive} Chips',
+                    '{C:inactive}and {C:mult}+#1#{C:inactive} Mult)'
                 }
+            },
+            j_yags_cheese = {
+                name = "Mr Cheese",
+                text = {
+                    "This joker gains",
+                    "{X:mult,C:white}X#2#{} Mult when each",
+                    "{C:attention}Jack{} is scored",
+                    "{C:inactive}(Currently {X:mult,C:white}X#1#{C:inactive} Mult)",
+                },
             },
             j_yags_oops1 = {
                 name = "Oops! All 1s",

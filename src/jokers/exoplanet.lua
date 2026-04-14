@@ -28,9 +28,9 @@ SMODS.Joker {
     calculate = function(self, card, context)
         if context.before and not context.blueprint then
             local reset = true
-            local play_highest_hand = (G.GAME.hands[context.scoring_name].level or 0)
+            local play_highest_hand = (G.GAME.hands[context.scoring_name].level)
             for handname, values in pairs(G.GAME.hands) do
-                if handname ~= context.scoring_name and values.level <= play_highest_hand and SMODS.is_poker_hand_visible(handname) then
+                if handname ~= context.scoring_name and values.level < play_highest_hand and SMODS.is_poker_hand_visible(handname) then
                     reset = false
                     break
                 end

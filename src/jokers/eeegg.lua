@@ -9,7 +9,7 @@ SMODS.Joker {
         extra = {
             dollars = 1,
             reset = 1,
-            scalar = 1
+            scalar = 1,
         }
     },
     rarity = 2,
@@ -18,7 +18,7 @@ SMODS.Joker {
         return {
             vars = {
                 card.ability.extra.dollars,
-                card.ability.extra.scalar
+                card.ability.extra.scalar,
             }
         }
     end,
@@ -26,19 +26,23 @@ SMODS.Joker {
         
         if context.individual and context.cardarea == G.play and context.other_card:get_id() == 14 then
             SMODS.calculate_effect({dollars = card.ability.extra.dollars}, context.other_card)
+            if card.ability.extra.dollars < 5 then
             SMODS.scale_card(card, {
                 ref_table = card.ability.extra,
                 ref_value = 'dollars',
                 scalar_value = 'scalar',
                 message_colour = G.C.ATTENTION
             })
+            end
         end
 
         if context.end_of_round and not context.blueprint and not context.repetition and not context.individual then
+            if card.ability.extra.dollars > 1 then
             card.ability.extra.dollars = card.ability.extra.reset
             return {
                 message = localize('k_reset')
             }
+            end
         end
     end
 }
