@@ -6,6 +6,12 @@ SMODS.Atlas {
     px = 71,
     py = 95
 }
+SMODS.Atlas {
+    key = 'yagslatro',
+    path = 'yagslatro.png',
+    px = 71,
+    py = 95
+}
 
 --#endregion
 

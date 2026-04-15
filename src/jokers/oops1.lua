@@ -1,9 +1,9 @@
 SMODS.Joker {
     key = 'oops1',
-    atlas = 'placeholders',
+    atlas = 'yagslatro',
     pos = {
         x = 1,
-        y = 0
+        y = 1
     },
     blueprint_compat = false,
     rarity = 2,

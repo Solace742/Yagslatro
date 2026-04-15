@@ -1,8 +1,8 @@
 SMODS.Joker {
     key = 'mould',
-    atlas = 'placeholders',
+    atlas = 'yagslatro',
     pos = {
-        x = 4,
+        x = 1,
         y = 0
     },
     config = {

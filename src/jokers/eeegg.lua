@@ -1,8 +1,8 @@
 SMODS.Joker {
     key = 'eeegg',
-    atlas = 'placeholders',
+    atlas = 'yagslatro',
     pos = {
-        x = 1,
+        x = 2,
         y = 0
     },
     config = {

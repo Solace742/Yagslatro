@@ -1,9 +1,9 @@
 SMODS.Joker {
     key = 'exoplanet',
-    atlas = 'placeholders',
+    atlas = 'yagslatro',
     pos = {
-        x = 1,
-        y = 0
+        x = 0,
+        y = 1
     },
     config = {
         extra = {mult = 0, chips = 0, mult_mod = 2, chip_mod = 10
@@ -31,7 +31,7 @@ SMODS.Joker {
                     break
                 end
             end
-            if is_highest then
+            if is_highest and play_highest_hand > 1 then
                 card.ability.extra.mult = card.ability.extra.mult + card.ability.extra.mult_mod
                 card.ability.extra.chips = card.ability.extra.chips + card.ability.extra.chip_mod
             else
