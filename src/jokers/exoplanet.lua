@@ -6,7 +6,7 @@ SMODS.Joker {
         y = 1
     },
     config = {
-        extra = {mult = 0, chips = 0, mult_mod = 2, chip_mod = 10
+        extra = {mult = 0, chips = 0, mult_mod = 1, chip_mod = 5
         }
     },
     rarity = 2,
@@ -26,7 +26,7 @@ SMODS.Joker {
             local is_highest = true
             local play_highest_hand = (G.GAME.hands[context.scoring_name].level)
             for handname, values in pairs(G.GAME.hands) do
-                if handname ~= context.scoring_name and values.level > play_highest_hand and SMODS.is_poker_hand_visible(handname) then
+                if handname ~= context.scoring_name and values.level >= play_highest_hand and SMODS.is_poker_hand_visible(handname) then
                     is_highest = false
                     break
                 end

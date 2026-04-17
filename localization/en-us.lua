@@ -35,7 +35,7 @@ return {
                 },
             },
             j_yags_mould = {
-                name = "Mouldy Cheese",
+                name = "Mr Mould",
                 text = {
                     "{X:mult,C:white} X#1# {} Mult"
                 },
