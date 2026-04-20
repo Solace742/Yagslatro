@@ -6,6 +6,7 @@ SMODS.Joker {
         y = 1
     },
     blueprint_compat = false,
+    eternal_compat = false,
     rarity = 3,
     cost = 10,
     config = {
@@ -14,7 +15,6 @@ SMODS.Joker {
             total_rounds = 3
         }
     },
-
     loc_vars = function (self, info_queue, card)
         return {
             vars = {
@@ -23,7 +23,6 @@ SMODS.Joker {
             }
         }
     end,
-
     calculate = function(self, card, context)
         if context.selling_self and (card.ability.extra.rounds >= card.ability.extra.total_rounds) and not context.blueprint then
             G.jokers.config.card_limit = G.jokers.config.card_limit + 1

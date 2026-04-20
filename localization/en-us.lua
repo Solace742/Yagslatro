@@ -49,6 +49,15 @@ return {
                     "{C:inactive}(Currently {C:attention}#1#{C:inactive}/#2#)"
                 },
             },
+            j_yags_debit = {
+                name = "Debit Card",
+                text = {
+                    "Every {C:attention}#3#{} booster packs",
+                    "skipped, creates a",
+                    "free {C:attention}Rare Tag{}",
+                    "{C:inactive}(Currently {C:attention}#2#{C:inactive}/#3#)"
+                },
+            },
             j_yags_oops1 = {
                 name = "Oops! All 1s",
                 text = {
