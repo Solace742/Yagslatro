@@ -40,6 +40,15 @@ return {
                     "{X:mult,C:white} X#1# {} Mult"
                 },
             },
+            j_yags_dreamer = {
+                name = "Auric Dreamer",
+                text = {
+                    "After {C:attention}#2#{} rounds,",
+                    "sell this card to",
+                    "gain {C:dark_edition}+1{} joker slots",
+                    "{C:inactive}(Currently {C:attention}#1#{C:inactive}/#2#)"
+                },
+            },
             j_yags_oops1 = {
                 name = "Oops! All 1s",
                 text = {
