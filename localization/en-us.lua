@@ -23,7 +23,7 @@ return {
                     '{C:inactive}and {C:mult}+#1#{C:inactive} Mult)'
                 }
             },
-            j_yags_cheese = {
+            j_yags_mrcheese = {
                 name = "Mr Cheese",
                 text = {
                     "This joker gains",
@@ -34,7 +34,7 @@ return {
                     "card {C:attention}moulds{} at end of round",
                 },
             },
-            j_yags_mould = {
+            j_yags_mrmould = {
                 name = "Mr Mould",
                 text = {
                     "{X:mult,C:white} X#1# {} Mult"
@@ -56,6 +56,14 @@ return {
                     "skipped, creates a",
                     "free {C:attention}Rare Tag{}",
                     "{C:inactive}(Currently {C:attention}#2#{C:inactive}/#3#)"
+                },
+            },
+            j_yags_luck = {
+                name = "Double or Nothing",
+                text = {
+                    "When a {C:attention}Lucky{} card",
+                    "{C:green}successfully{} triggers,",
+                    "retrigger playd card"
                 },
             },
             j_yags_oops1 = {

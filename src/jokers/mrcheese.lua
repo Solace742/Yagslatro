@@ -1,5 +1,5 @@
 SMODS.Joker {
-    key = 'cheese',
+    key = 'mrcheese',
     atlas = 'yagslatro',
     pos = {
         x = 0,
