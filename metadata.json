@@ -5,5 +5,5 @@
     "description": "Adds the stuff I wanna add",
     "prefix": "yags",
     "main_file": "main.lua",
-    "version": "0.0.1"
+    "version": "1.0.1"
 }

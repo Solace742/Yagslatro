@@ -9,6 +9,11 @@ SMODS.Joker {
     eternal_compat = false,
     rarity = 3,
     cost = 10,
+    draw = function(self, card, layer)
+        if card.config.center.discovered or card.bypass_discovery_center then
+            card.children.center:draw_shader('voucher', nil, card.ARGS.send_to_shader)
+        end
+    end,
     config = {
         extra = {
             rounds = 0,
