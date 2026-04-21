@@ -1,6 +1,6 @@
 SMODS.Joker {
     key = 'debit',
-    atlas = 'placeholders',
+    atlas = 'yagslatro',
     pos = {
         x = 0,
         y = 0

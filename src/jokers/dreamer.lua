@@ -1,9 +1,9 @@
 SMODS.Joker {
     key = 'dreamer',
-    atlas = 'placeholders',
+    atlas = 'yagslatro',
     pos = {
-        x = 0,
-        y = 1
+        x = 1,
+        y = 0
     },
     blueprint_compat = false,
     eternal_compat = false,

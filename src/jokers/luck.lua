@@ -1,9 +1,9 @@
 SMODS.Joker {
     key = 'luck',
-    atlas = 'placeholders',
+    atlas = 'yagslatro',
     pos = {
-        x = 1,
-        y = 0
+        x = 2,
+        y = 1
     },
     rarity = 2,
     cost = 6,

@@ -63,7 +63,7 @@ return {
                 text = {
                     "When a {C:attention}Lucky{} card",
                     "{C:green}successfully{} triggers,",
-                    "retrigger playd card"
+                    "retrigger played card"
                 },
             },
             j_yags_oops1 = {
