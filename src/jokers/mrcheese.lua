@@ -31,7 +31,7 @@ SMODS.Joker {
         if context.end_of_round and context.game_over == false and context.main_eval and not context.blueprint then
             if SMODS.pseudorandom_probability(card, 'yags_cheese', 1, card.ability.extra.odds) then
                 SMODS.destroy_cards(card, nil, nil, true)
-                local new_joker = create_card('Joker', nil, nil, nil, nil, nil, 'j_yags_mould', 'cheese_spawn')
+                local new_joker = create_card('Joker', nil, nil, nil, nil, nil, 'j_yags_mrmould', 'cheese_spawn')
                 new_joker:add_to_deck()
                 G.jokers:emplace(new_joker)
                 new_joker.ability.extra.xmult = card.ability.extra.xmult
