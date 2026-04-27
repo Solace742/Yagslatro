@@ -6,7 +6,7 @@ SMODS.Joker {
         y = 1
     },
     config = {
-        extra = {mult = 0, chips = 0, mult_mod = 1, chip_mod = 10
+        extra = {mult = 0, chips = 0, mult_mod = 2, chip_mod = 10
         }
     },
     rarity = 2,
